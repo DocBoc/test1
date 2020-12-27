@@ -1,0 +1,136 @@
+#root {
+    height: 100%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .row.center {
+    justify-content: center;
+  }
+  .medium {
+    border-radius: 0.5rem;
+  }
+  
+  .card {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #e6e6e6;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }
+.card-body {
+  padding: 1rem;
+}
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+.search {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+.vdo {
+  width : 270px;
+  height: 200px;
+}
+.vdobox {
+  border : solid;
+  border-radius: .75rem;
+  border-color: #ffffff;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  /* height: 300px;
+  width: 300px; */
+}
+.button-div {
+ text-align: center;
+ margin-bottom: 5px;
+}
+h3 {
+  color :black;
+  font-size: 1.5rem;
+}
+/* button {
+  display: inline-block;
+  padding: 0.35rem 1.2rem;
+  border: 0.1em solid #030303;
+  border-radius: 0.12rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  background-color: rgb(190, 178, 178);
+  color : #fdfcfc;
+  text-align: center;
+  transition: all 0.2s;
+} */
+.Button {
+  color: #ffffff;
+  background-color: #000000;
+
+  border-color: #4c4d4e;
+  border-radius: .75rem;
+  padding: 0px;
+  margin-top: 10px;
+  height: 30px;
+  width: 60px;
+  font-size: 1.5rem;
+}
+.Button:hover{
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #9c9c9c;
+  border-radius: .75rem;
+  padding: 0px;
+  margin-top: 10px;
+  height: 30px;
+  width: 60px;
+  font-size: 1.5rem;
+}
+/* button:hover {
+  color: rgb(51, 49, 49);
+  background-color:  rgba(206, 78, 120, 0.144);
+  border: 1px solid #f7fcf7;
+  text-decoration: none;
+  display: inline-block;
+} */
+.Linktext {
+  color : #000000;
+}
+.Video_page_but {
+  text-align: center;
+}
+.input{
+  width: 200px;
+  padding: 0.8rem .75rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: .550rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

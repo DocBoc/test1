@@ -1,0 +1,131 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  html {
+    font-size : 63.5%;
+    box-sizing : border-box;
+  }
+  body {
+    background-color: #e6e6e6;
+    margin : 0;
+    height : 100vh;
+    font-size: 1.6rem;
+    font-family : Arial, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #root {
+    height : 100%;
+  }
+  .grid-container {
+    display : grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows:  5rem 1fr 5rem;
+    height : 100%;
+  }
+  header {
+    grid-area : header;
+    background-color: #141414;
+  }
+  main {
+    grid-area : main;
+    padding : 1rem;
+  }
+  footer {
+    grid-area: footer;
+    background-color: #203040;
+    color : white;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a{
+    color : #203040;
+    text-decoration: none;
+  }
+  a:hover {
+    color : #ff8000;
+  }
+  a.brand {
+    color : #111010;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  header {
+    color : #d6c5c5;
+    padding : 1rem;
+  }
+  .row.center {
+    justify-content: center;
+  }
+  .medium {
+   border-radius : 0.5rem;
+  }
+  img.medium {
+    max-width: 29rem;
+    width : 100%;
+  }
+  .card {
+    border : 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    margin: 1rem;
+  }
+  .card-body {
+    padding : 1rem;
+  }
+  .card-body > * {
+  margin-bottom: 0.5rem;   
+  }
+  .rating span {
+    color : #f0c040;
+    margin : 0.1rem;
+  }
+  
+  .Navbar {
+    flex-direction: column-reverse;
+    background-color: #203040;
+  }
+ #user{
+   padding: 20px;
+ }
+ .pdf{
+   margin: 0px;
+   height: 200px;
+   width: 304px;
+ }
+ .input{
+  width: 200px;
+  padding: 0.8rem .75rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: .550rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.search {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+}
+.Pdfbox {
+
+  text-align: center;
+  font-size: 1.8rem;
+
+}
